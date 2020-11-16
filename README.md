@@ -6,7 +6,7 @@
 
 # CHell
 The CHell is a PHP shell based on cookies to execute the commands.<br> 
-It might bypass several controls, and monitoring due to the web servers usually does not include the cookies into logs file.
+It might bypass several controls, and monitoring due to the web servers usually does not include the cookies into log files.
 
 ## Notes ##
 - CHell <chell.php> can be used as standalone .php file or backdooring an existence .php file into the server. 
