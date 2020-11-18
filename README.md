@@ -37,4 +37,4 @@ Zend Engine v3.4.0, Copyright (c) Zend Technologies
 with Zend OPcache v7.4.9, Copyright (c), by Zend Technologies
 ```
 ### To Do ###
-Windows client support 
+Windows client support -> Done!
