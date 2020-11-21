@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CHell", "CHell\CHell.csproj", "{AED33CCD-9EC3-49C7-8511-56E6178206FF}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CHell Client Setup", "CHell Client Setup\CHell Client Setup.vdproj", "{6F2C3D87-F01F-43A6-BA97-9A290C310F21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED33CCD-9EC3-49C7-8511-56E6178206FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED33CCD-9EC3-49C7-8511-56E6178206FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED33CCD-9EC3-49C7-8511-56E6178206FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED33CCD-9EC3-49C7-8511-56E6178206FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2C3D87-F01F-43A6-BA97-9A290C310F21}.Debug|Any CPU.ActiveCfg = Debug
+		{6F2C3D87-F01F-43A6-BA97-9A290C310F21}.Release|Any CPU.ActiveCfg = Release
+		{6F2C3D87-F01F-43A6-BA97-9A290C310F21}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CD4ED00-E29D-46B1-8850-FAD4AE363C7E}
+	EndGlobalSection
+EndGlobal
